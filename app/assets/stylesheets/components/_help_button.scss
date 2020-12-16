@@ -1,0 +1,36 @@
+.charlies-btn {
+  position: relative;
+  bottom: -19px !important ;
+
+  margin: 0 auto;
+  z-index: 17;
+  width: fit-content;
+  height: auto;
+  padding: 15px 25px;
+  background: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+
+  font-family: $body-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #fe786c;
+  a {
+    color: #fe786c;
+    text-decoration: none;
+  }
+  &:active {
+    color: #f8a984;
+    text-decoration: none;
+  }
+}
+
+.charlies-btn:hover {
+  text-decoration: none !important;
+  color: #fe786c !important;
+}

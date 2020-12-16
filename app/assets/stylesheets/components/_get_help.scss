@@ -1,0 +1,107 @@
+// CHOICE ONE
+
+#choice1 {
+  background: rgba(255, 255, 255, 0.644);
+  position: relative;
+  border: none;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  border-radius: 20px;
+  font-size: 18px;
+  width: 85%;
+  margin: 50px auto;
+  a {
+    opacity: 0.4;
+    text-decoration: none;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(230, 193, 255, 0.719);
+    top: 17px;
+  }
+}
+
+// CHOICE TWO
+
+#choice2 {
+  background: rgba(255, 255, 255, 0.644);
+  position: relative;
+  border: none;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  border-radius: 20px;
+  font-size: 18px;
+  width: 85%;
+  margin: 50px auto;
+  a {
+    opacity: 0.4;
+    text-decoration: none;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(230, 193, 255, 0.719);
+    top: 17px;
+  }
+}
+
+// CHOICE THREE
+
+#choice3 {
+  background: rgba(255, 255, 255, 0.644);
+  position: relative;
+  border: none;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  border-radius: 20px;
+  font-size: 18px;
+  width: 85%;
+  margin: 50px auto;
+  a {
+    opacity: 0.4;
+    text-decoration: none;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(230, 193, 255, 0.719);
+    top: 17px;
+  }
+}
+
+.active {
+  box-shadow: 0 0 42px rgba(255, 196, 196, 0.788);
+  background: white;
+  position: relative;
+  border: none;
+  width: 85%;
+  margin: 50px auto;
+  border-radius: 20px;
+  font-size: 18px;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  a {
+    text-decoration: none;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3.5px solid rgb(246, 117, 105) !important;
+    box-shadow: 0 0 42px rgba(255, 196, 196, 1);
+    background-color: none !important;
+    top: 17px;
+  }
+}

@@ -1,0 +1,51 @@
+.page-container {
+  position: relative;
+
+  // background-color: #FFF6F0
+}
+.content-container {
+  padding-top: 80px;
+}
+
+.charlies-input {
+  border: none;
+  border-bottom: 1px solid #fe786c;
+  padding: 21px 12px;
+  border-radius: 6px 6px 0 0;
+}
+
+.sign-up {
+  margin: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fe786c;
+}
+
+.charlies-btn {
+  width: fit-content;
+  height: auto;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  padding: 6px 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%, #ffffff 100%);
+  border-radius: 40px;
+
+  font-family: $body-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #fe786c;
+
+  box-shadow: 0px 4px 19px 6px rgba(254, 120, 108, 0.23);
+}
+
+.login-link {
+  text-decoration: none;
+  color: #fe786c;
+  font-size: 15px;
+  margin-left: 20px;
+}

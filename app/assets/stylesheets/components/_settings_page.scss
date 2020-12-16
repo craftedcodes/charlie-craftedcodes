@@ -1,0 +1,164 @@
+.title {
+  h1 {
+    color: #ff6356;
+    font-family: $h1-font;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.settings {
+  background: transparent;
+  margin-top: 60px;
+  text-align: center;
+  .card {
+    border-radius: 20px;
+    font-size: 18px;
+    .card-body {
+      background: rgba(255, 248, 248, 0.932);
+    }
+    a {
+      color: #ff6356;
+    }
+  }
+}
+
+#accordionMain {
+  border: 1px solid rgba(250, 184, 253, 0.753);
+  border-radius: 20px;
+  box-shadow: 0 0 42px rgba(255, 196, 196, 0.411);
+}
+#accordion2 {
+  border-radius: 20px;
+  box-shadow: 0 0 22px rgba(255, 205, 205, 0.795);
+}
+// Main accordion headers
+#headingOne {
+  background: rgb(253, 245, 245);
+  box-shadow: none;
+  button {
+    color: #ff6356;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+#headingTwo {
+  background: rgb(255, 248, 248);
+  button {
+    color: #ff6356;
+    box-shadow: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+// Contact accordion headers
+#heading1 {
+  background: rgb(255, 251, 251);
+  button {
+    color: #ff6356;
+    box-shadow: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+#heading2 {
+  background: rgb(255, 251, 251);
+  button {
+    color: #ff6356;
+    box-shadow: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+#heading3 {
+  background: rgb(255, 251, 251);
+  button {
+    color: #ff6356;
+    box-shadow: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+
+// Background Accordion ?? -has to be fixed
+
+#collapseTwo {
+  color: #3e455a;
+}
+// Message save button
+#msg-save-btn {
+  background: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 19px 6px #fe786c3b;
+  border: 1px solid rgba(243, 216, 216, 0.788);
+  padding: 3px 8px 3px 8px;
+  color: #3e455a;
+}
+
+// Toggle Sound button (changing appearance on current_user.voice = true/false)
+#toggletrue {
+  background: transparent;
+  a {
+    text-decoration: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+#togglefalse {
+  background: transparent;
+  a {
+    opacity: 0.6;
+    text-decoration: none;
+    &:active {
+      color: rgb(248, 169, 132);
+    }
+  }
+}
+#toggleswitchtrue {
+  box-shadow: 0 0 42px rgba(255, 196, 196, 0.637);
+  background: rgb(255, 250, 250);
+  position: relative;
+  border: none;
+  margin-top: 50px;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3.5px solid rgb(246, 117, 105) !important;
+    box-shadow: 0 0 42px rgba(255, 196, 196, 1);
+    background-color: rgba(230, 193, 255, 0.719);
+    top: 17px;
+  }
+}
+
+#toggleswitchfalse {
+  background: rgb(255, 250, 250);
+  position: relative;
+  border: none;
+  margin-top: 50px;
+  border: 1px solid rgba(189, 123, 185, 0.473);
+  &:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(230, 193, 255, 0.719);
+    top: 17px;
+  }
+}
