@@ -2,4 +2,4 @@
 
 ## Re-written in the coding style of craftedcodes
 
-- Work in progress\*
+** Work in progress **
