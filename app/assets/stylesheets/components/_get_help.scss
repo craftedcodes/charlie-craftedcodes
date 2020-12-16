@@ -1,10 +1,10 @@
 // CHOICE ONE
 
 #choice1 {
-  background: rgba(255, 255, 255, 0.644);
+  background: #ffffffa4;
   position: relative;
   border: none;
-  border: 1px solid rgba(189, 123, 185, 0.473);
+  border: 1px solid #bd7bb979;
   border-radius: 20px;
   font-size: 18px;
   width: 85%;
@@ -20,7 +20,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgba(230, 193, 255, 0.719);
+    background-color: #e6c1ffb7;
     top: 17px;
   }
 }
@@ -28,10 +28,10 @@
 // CHOICE TWO
 
 #choice2 {
-  background: rgba(255, 255, 255, 0.644);
+  background: #ffffffa4;
   position: relative;
   border: none;
-  border: 1px solid rgba(189, 123, 185, 0.473);
+  border: 1px solid #bd7bb979;
   border-radius: 20px;
   font-size: 18px;
   width: 85%;
@@ -47,7 +47,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgba(230, 193, 255, 0.719);
+    background-color: #e6c1ffb7;
     top: 17px;
   }
 }
@@ -55,10 +55,10 @@
 // CHOICE THREE
 
 #choice3 {
-  background: rgba(255, 255, 255, 0.644);
+  background: #ffffffa4;
   position: relative;
   border: none;
-  border: 1px solid rgba(189, 123, 185, 0.473);
+  border: 1px solid #bc7bb879;
   border-radius: 20px;
   font-size: 18px;
   width: 85%;
@@ -74,13 +74,13 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgba(230, 193, 255, 0.719);
+    background-color: #e6c1ffb7;
     top: 17px;
   }
 }
 
 .active {
-  box-shadow: 0 0 42px rgba(255, 196, 196, 0.788);
+  box-shadow: 0 0 42px #ffc4c4c9;
   background: white;
   position: relative;
   border: none;
@@ -88,7 +88,7 @@
   margin: 50px auto;
   border-radius: 20px;
   font-size: 18px;
-  border: 1px solid rgba(189, 123, 185, 0.473);
+  border: 1px solid #bd7bb979;
   a {
     text-decoration: none;
   }
@@ -99,8 +99,8 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 3.5px solid rgb(246, 117, 105) !important;
-    box-shadow: 0 0 42px rgba(255, 196, 196, 1);
+    border: 3.5px solid #f67569 !important;
+    box-shadow: 0 0 42px #ffc4c4;
     background-color: none !important;
     top: 17px;
   }
