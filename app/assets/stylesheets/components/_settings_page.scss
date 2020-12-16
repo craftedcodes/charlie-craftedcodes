@@ -22,17 +22,17 @@
   }
 }
 
-#accordionMain {
+#accordion-main {
   border: 1px solid #fab8fdc0;
   border-radius: 20px;
   box-shadow: 0 0 42px #ffc4c469;
 }
-#accordion2 {
+#accordion02 {
   border-radius: 20px;
   box-shadow: 0 0 22px #ffcdcdcb;
 }
 // Main accordion headers
-#headingOne {
+#heading-one {
   background: #fdf5f5;
   box-shadow: none;
   button {
@@ -42,7 +42,7 @@
     }
   }
 }
-#headingTwo {
+#heading-two {
   background: #fff8f8;
   button {
     color: #ff6356;
@@ -58,7 +58,7 @@
 }
 
 // Contact accordion headers
-#heading1 {
+#heading01 {
   background: #fffbfb;
   button {
     color: #ff6356;
@@ -68,7 +68,7 @@
     }
   }
 }
-#heading2 {
+#heading02 {
   background: #fffbfb;
   button {
     color: #ff6356;
@@ -78,7 +78,7 @@
     }
   }
 }
-#heading3 {
+#heading03 {
   background: #fffbfb;
   button {
     color: #ff6356;
@@ -91,7 +91,7 @@
 
 // Background Accordion ?? -has to be fixed
 
-#collapseTwo {
+#collapse-two {
   color: #3e455a;
 }
 // Message save button

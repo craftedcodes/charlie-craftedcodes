@@ -31,6 +31,7 @@
   transform-origin: center;
   z-index: 1;
 }
+
 @-webkit-keyframes grow {
   0% {
     transform: scale(1);
@@ -43,7 +44,31 @@
   }
 }
 
-.fog-1 {
+@-moz-keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-o-keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fog01 {
   position: absolute;
   width: 400%;
   top: 150px;
@@ -54,7 +79,7 @@
   animation-name: move;
 }
 
-.fog-2 {
+.fog02 {
   position: absolute;
   width: 400%;
   top: -20px;
@@ -66,6 +91,30 @@
 }
 
 @-webkit-keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-o-keyframes move {
   0% {
     transform: translateX(0);
   }
@@ -109,11 +158,11 @@
   }
 
   box-shadow: 0px 4px 19px 6px #fe786c3b;
-}
 
-.charlies-btn-homepage:hover {
-  text-decoration: none !important;
-  color: #fe786c !important;
+  &:hover {
+    text-decoration: none !important;
+    color: #fe786c !important;
+  }
 }
 
 // Class for hiding the button until the JS code in btn-hidden.js reveals it
